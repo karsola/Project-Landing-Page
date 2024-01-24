@@ -19,28 +19,25 @@ h2{
     font-style: extra-bold;
     color: #f9faf8;
 }
-.image1{
-    height: 100px;
-    width: 100px;
-}
+
 
 .header-logo{
-    position: absolute;
+    position: relative;
     color: #f9faf8;
     font-size: 24px;
-    left:150px;
+    left:-150px;
+    border: 2px solid brown;
 }
 
 .header-link{
-    position: absolute;
     color: #f9faf8;
     margin-top: 20px;
+    gap: 30px;
     display:flex ;
-
     justify-content: space-around;
-    border:2px solid black;
     font-size: 1.3em;
-    
+    position: relative;
+    right: -150px;
 }
 
 .header-one p{
@@ -49,20 +46,38 @@ h2{
 }
 
 .header-container{
+    position: relative;
     display: flex;  
     flex: 1;
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
     border: 5px solid black;
-    position: relative;
     width: 100%;
 }
 
 .top-header{
     display: flex;
+    padding: 15px;
     justify-content: center;
-    border: 2px solid yellow;
     width: 100%;
-    position:relative;
+    height: 15vh;
+    border: 2px solid white;
+}
+
+.header-one{
+    border: 2px solid green;
+    position: relative;
+    left: -297px;
+    width: 500px;
+    flex: 1;
+    margin-top: 100px;
+}
+
+.image1{
+    height: 250px;
+    width: 550px;
+    position: relative;
+    right: -250px;
+    bottom: 200px;
 }
