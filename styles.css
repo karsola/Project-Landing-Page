@@ -10,13 +10,12 @@
 
 .container{
     margin: 0;
-    background-color: red;
     position: relative;
 }
 
 h2{
     font-size: 48px;
-    font-style: extra-bold;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -26,7 +25,6 @@ h2{
     color: #f9faf8;
     font-size: 24px;
     left:-150px;
-    border: 2px solid brown;
 }
 
 .header-link{
@@ -52,8 +50,8 @@ h2{
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
-    border: 5px solid black;
     width: 100%;
+    height: 550px;
 }
 
 .top-header{
@@ -62,22 +60,119 @@ h2{
     justify-content: center;
     width: 100%;
     height: 15vh;
-    border: 2px solid white;
 }
 
 .header-one{
-    border: 2px solid green;
     position: relative;
-    left: -297px;
-    width: 500px;
-    flex: 1;
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    left: 10px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0;
+    margin: 0;
+    position: relative;
+    padding: 80px;
+    width: 100%;
 }
 
 .image1{
-    height: 250px;
-    width: 550px;
+
     position: relative;
-    right: -250px;
-    bottom: 200px;
+    height: 260px;
+    width: 570px;
+}
+
+.signup{
+  border: 0;
+  background-color: #3882f6;
+  padding: 7px 3px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  width: 125px;
+  margin-top: 10px;
+}
+
+.body-container{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.body-container h3{
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 36px;
+    padding: 35px;
+}
+
+.figure-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.figure-container > figure{
+    border: 4px solid #3882f6;
+    border-radius: 18px;
+    height: 10rem;
+    width: 10rem;
+}
+
+.figure-container img{
+    border-radius: 14px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.figure-container figcaption{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7e8288;
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 450px;
+
+}
+
+.paragraph{
+    width: 800px;
+    height: 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.thor{
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 1.4rem;
+    right: 270px;
 }
